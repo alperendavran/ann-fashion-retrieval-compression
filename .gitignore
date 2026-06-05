@@ -1,0 +1,12 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+outputs/smoke/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+.DS_Store

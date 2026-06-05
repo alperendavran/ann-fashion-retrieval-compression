@@ -1,0 +1,14 @@
+{
+  "method": "distillation_rkd",
+  "amount": "",
+  "metric_augmentation": false,
+  "best_epoch": 9,
+  "recall@1": 0.7889999747276306,
+  "recall@5": 0.9304999709129333,
+  "recall@10": 0.9595000147819519,
+  "mAP": 0.7010313868522644,
+  "dense_parameters": 12528,
+  "nonzero_parameters": 12528,
+  "dense_flops": 1190528,
+  "checkpoint": "outputs/part_c/distilled_compact_student.pt"
+}

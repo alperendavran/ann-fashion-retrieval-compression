@@ -1,0 +1,30 @@
+[
+  {
+    "method": "global_l1_pruning",
+    "amount": 0.4,
+    "metric_augmentation": false,
+    "best_epoch": 5,
+    "recall@1": 0.7494999766349792,
+    "recall@5": 0.9294999837875366,
+    "recall@10": 0.9580000042915344,
+    "mAP": 0.6830382943153381,
+    "dense_parameters": 38304,
+    "nonzero_parameters": 23456,
+    "dense_flops": 3986624,
+    "checkpoint": "outputs/part_c/pruned_global_l1_0.40.pt"
+  },
+  {
+    "method": "distillation_rkd",
+    "amount": "",
+    "metric_augmentation": false,
+    "best_epoch": 9,
+    "recall@1": 0.7889999747276306,
+    "recall@5": 0.9304999709129333,
+    "recall@10": 0.9595000147819519,
+    "mAP": 0.7010313868522644,
+    "dense_parameters": 12528,
+    "nonzero_parameters": 12528,
+    "dense_flops": 1190528,
+    "checkpoint": "outputs/part_c/distilled_compact_student.pt"
+  }
+]

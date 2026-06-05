@@ -1,0 +1,58 @@
+{
+  "teacher_recall@1": 0.8295,
+  "compare_amount": 0.4,
+  "method_comparison": [
+    {
+      "method": "local_l1",
+      "requested_amount": 0.4,
+      "realized_sparsity": 0.4,
+      "recall@1": 0.7615
+    },
+    {
+      "method": "local_random",
+      "requested_amount": 0.4,
+      "realized_sparsity": 0.4,
+      "recall@1": 0.6545
+    },
+    {
+      "method": "global_l1",
+      "requested_amount": 0.4,
+      "realized_sparsity": 0.4,
+      "recall@1": 0.719
+    },
+    {
+      "method": "global_random",
+      "requested_amount": 0.4,
+      "realized_sparsity": 0.4,
+      "recall@1": 0.661
+    }
+  ],
+  "global_l1_sweep": [
+    {
+      "method": "global_l1",
+      "requested_amount": 0.2,
+      "realized_sparsity": 0.2,
+      "recall@1": 0.7955
+    },
+    {
+      "method": "global_l1",
+      "requested_amount": 0.4,
+      "realized_sparsity": 0.4,
+      "recall@1": 0.719
+    },
+    {
+      "method": "global_l1",
+      "requested_amount": 0.6,
+      "realized_sparsity": 0.6,
+      "recall@1": 0.102
+    },
+    {
+      "method": "global_l1",
+      "requested_amount": 0.8,
+      "realized_sparsity": 0.8,
+      "recall@1": 0.102
+    }
+  ],
+  "fine_tune_epochs": 5,
+  "learning_rate": 0.0005
+}

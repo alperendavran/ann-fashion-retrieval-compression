@@ -1,0 +1,2 @@
+backbone,loss_name,embedding_dim,best_epoch,metric_augmentation,recall@1_baseline,recall@5_baseline,recall@10_baseline,mAP_baseline,recall@1,recall@5,recall@10,mAP,parameters,flops,checkpoint
+separable_cnn,triplet,64,2,False,0.8159999847412109,0.9409999847412109,0.9664999842643738,0.6967630386352539,0.8295000195503235,0.9465000033378601,0.9700000286102295,0.6918280720710754,38304,3986624,outputs/part_b/retrieval_separable_cnn_triplet_best.pt

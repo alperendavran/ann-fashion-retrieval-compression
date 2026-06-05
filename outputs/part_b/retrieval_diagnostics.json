@@ -1,0 +1,161 @@
+{
+  "checkpoint": "outputs/part_b/retrieval_separable_cnn_triplet_best.pt",
+  "eval_size": 2000,
+  "tsne_max_points": 1200,
+  "tsne_perplexity": 30.0,
+  "tsne_random_state": 42,
+  "recall_at_1_definition": "nearest neighbor by L2 distance in L2-normalized embedding space, self excluded, hit if same FashionMNIST class",
+  "per_class_recall_at_1": {
+    "T-shirt/top": 0.8227272629737854,
+    "Trouser": 0.9497487545013428,
+    "Pullover": 0.7025641202926636,
+    "Dress": 0.8290155529975891,
+    "Coat": 0.7970296740531921,
+    "Sandal": 0.900943398475647,
+    "Shirt": 0.4974619150161743,
+    "Sneaker": 0.9175257682800293,
+    "Bag": 0.9508196711540222,
+    "Ankle boot": 0.9268292784690857
+  },
+  "geometry_diagnostics": {
+    "alignment": 0.020135261118412018,
+    "uniformity": -0.13670356571674347,
+    "intra_class_distance": 0.1352837085723877,
+    "inter_class_distance": 0.2656576335430145,
+    "intra_inter_distance_ratio": 0.5092408103171744
+  },
+  "confusion_matrix_rows_true_cols_retrieved": [
+    [
+      181,
+      0,
+      7,
+      9,
+      2,
+      1,
+      17,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      189,
+      1,
+      4,
+      2,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      6,
+      1,
+      137,
+      4,
+      30,
+      0,
+      16,
+      0,
+      1,
+      0
+    ],
+    [
+      6,
+      3,
+      5,
+      160,
+      8,
+      0,
+      10,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      20,
+      4,
+      161,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      191,
+      0,
+      17,
+      0,
+      4
+    ],
+    [
+      40,
+      0,
+      19,
+      8,
+      28,
+      0,
+      98,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      178,
+      0,
+      10
+    ],
+    [
+      1,
+      1,
+      0,
+      2,
+      1,
+      2,
+      2,
+      0,
+      174,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      12,
+      1,
+      190
+    ]
+  ],
+  "classes": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ]
+}

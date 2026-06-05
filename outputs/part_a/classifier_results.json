@@ -1,0 +1,50 @@
+[
+  {
+    "model": "cnn",
+    "learning_rate": 0.001,
+    "best_epoch": 7,
+    "val_accuracy": 0.7864999771118164,
+    "val_macro_f1": 0.777162090180573,
+    "test_accuracy": 0.7937999963760376,
+    "test_macro_f1": 0.7874145955450447,
+    "parameters": 93962,
+    "flops": 14948746,
+    "checkpoint": "outputs/part_a/cnn_lr0.001_best.pt"
+  },
+  {
+    "model": "cnn",
+    "learning_rate": 0.0005,
+    "best_epoch": 7,
+    "val_accuracy": 0.7429999709129333,
+    "val_macro_f1": 0.7258087016297865,
+    "test_accuracy": 0.7562999725341797,
+    "test_macro_f1": 0.7409962403702376,
+    "parameters": 93962,
+    "flops": 14948746,
+    "checkpoint": "outputs/part_a/cnn_lr0.0005_best.pt"
+  },
+  {
+    "model": "separable_cnn",
+    "learning_rate": 0.001,
+    "best_epoch": 6,
+    "val_accuracy": 0.843999981880188,
+    "val_macro_f1": 0.8404131769258403,
+    "test_accuracy": 0.8305000066757202,
+    "test_macro_f1": 0.8278299249015155,
+    "parameters": 31338,
+    "flops": 3972746,
+    "checkpoint": "outputs/part_a/separable_cnn_lr0.001_best.pt"
+  },
+  {
+    "model": "separable_cnn",
+    "learning_rate": 0.0005,
+    "best_epoch": 8,
+    "val_accuracy": 0.8270000219345093,
+    "val_macro_f1": 0.8231222109719842,
+    "test_accuracy": 0.8138999938964844,
+    "test_macro_f1": 0.8134143192306776,
+    "parameters": 31338,
+    "flops": 3972746,
+    "checkpoint": "outputs/part_a/separable_cnn_lr0.0005_best.pt"
+  }
+]

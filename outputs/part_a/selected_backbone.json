@@ -1,0 +1,12 @@
+{
+  "model": "separable_cnn",
+  "learning_rate": 0.001,
+  "best_epoch": 6,
+  "val_accuracy": 0.843999981880188,
+  "val_macro_f1": 0.8404131769258403,
+  "test_accuracy": 0.8305000066757202,
+  "test_macro_f1": 0.8278299249015155,
+  "parameters": 31338,
+  "flops": 3972746,
+  "checkpoint": "outputs/part_a/separable_cnn_lr0.001_best.pt"
+}

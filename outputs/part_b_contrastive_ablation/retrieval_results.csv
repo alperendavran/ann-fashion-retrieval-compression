@@ -1,0 +1,2 @@
+backbone,loss_name,embedding_dim,best_epoch,metric_augmentation,recall@1_baseline,recall@5_baseline,recall@10_baseline,mAP_baseline,recall@1,recall@5,recall@10,mAP,parameters,flops,checkpoint
+separable_cnn,contrastive,64,1,False,0.8159999847412109,0.9409999847412109,0.9664999842643738,0.6967630386352539,0.8190000057220459,0.9419999718666077,0.9670000076293945,0.7053572535514832,38304,3986624,outputs/part_b_contrastive_ablation/retrieval_separable_cnn_contrastive_best.pt

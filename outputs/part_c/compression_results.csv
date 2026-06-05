@@ -1,0 +1,3 @@
+method,amount,metric_augmentation,best_epoch,recall@1,recall@5,recall@10,mAP,dense_parameters,nonzero_parameters,dense_flops,checkpoint
+global_l1_pruning,0.4,False,5,0.7494999766349792,0.9294999837875366,0.9580000042915344,0.6830382943153381,38304,23456,3986624,outputs/part_c/pruned_global_l1_0.40.pt
+distillation_rkd,,False,9,0.7889999747276306,0.9304999709129333,0.9595000147819519,0.7010313868522644,12528,12528,1190528,outputs/part_c/distilled_compact_student.pt

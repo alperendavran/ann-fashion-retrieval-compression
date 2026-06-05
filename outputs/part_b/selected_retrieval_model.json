@@ -1,0 +1,18 @@
+{
+  "backbone": "separable_cnn",
+  "loss_name": "triplet",
+  "embedding_dim": 64,
+  "best_epoch": 2,
+  "metric_augmentation": false,
+  "recall@1_baseline": 0.8159999847412109,
+  "recall@5_baseline": 0.9409999847412109,
+  "recall@10_baseline": 0.9664999842643738,
+  "mAP_baseline": 0.6967630386352539,
+  "recall@1": 0.8295000195503235,
+  "recall@5": 0.9465000033378601,
+  "recall@10": 0.9700000286102295,
+  "mAP": 0.6918280720710754,
+  "parameters": 38304,
+  "flops": 3986624,
+  "checkpoint": "outputs/part_b/retrieval_separable_cnn_triplet_best.pt"
+}
